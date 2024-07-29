@@ -61,7 +61,7 @@ def delete_entry    (value_to_delete):
     filtered_df.to_csv(file_name, index=False)
     print("deleted")
 
-def gain():
+def main():
     """
     Main function to interact with the address book.
     """
@@ -110,4 +110,4 @@ def gain():
             print("Incorrect value. Select an option from the menu.")
 
  
-gain()
+main()
